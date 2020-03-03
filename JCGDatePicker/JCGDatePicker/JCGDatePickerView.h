@@ -1,8 +1,13 @@
-# JCGDatePickerView
-自定义日期选择控件
+//
+//  JCGDatePickerView.h
+//  JCGUIProject
+//
+//  Created by Edward on 2018/10/9.
+//  Copyright © 2018 Edward. All rights reserved.
+//
 
-```
-可选则格式
+#import <UIKit/UIKit.h>
+
 typedef NS_ENUM(NSUInteger, JCGDatePickerModel) {
     PickerModelYear = 0,
     PickerModelYearMonth,
@@ -26,9 +31,10 @@ typedef NS_ENUM(NSUInteger, JCGDatePickerModel) {
     PickerModelMinuteSeconds,
     PickerModelSeconds
 };
-```
 
-```
+
+@interface JCGDatePickerView : UIView
+
 /**
  初始化方法
 
@@ -38,9 +44,9 @@ typedef NS_ENUM(NSUInteger, JCGDatePickerModel) {
  @param block 返回值
  @return instancetype
  */
-JCGDatePickerView *datePicker = [[JCGDatePickerView alloc] initWithPickerModel:model.pickerModel MiniDate:nil MaxDate:[NSDate date] withResponse:^(id response) {
-        
-    }];
-    
-[datePicker show];
-```
+- (instancetype)initWithPickerModel:(JCGDatePickerModel)pickerModel MiniDate:(NSDate *)miniDate MaxDate:(NSDate *)maxDate withResponse:(void(^)(NSDate *date))block;
+
+- (void)show;
+
+@end
+
