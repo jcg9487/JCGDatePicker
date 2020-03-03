@@ -44,3 +44,7 @@ JCGDatePickerView *datePicker = [[JCGDatePickerView alloc] initWithPickerModel:m
     
 [datePicker show];
 ```
+可使用cocoaPods集成
+```
+pod 'JCGDatePicker'
+```
