@@ -1,5 +1,5 @@
 //
-//  JCGDatePickerView.h
+//  JCGDatePicker.h
 //  JCGUIProject
 //
 //  Created by Edward on 2018/10/9.
@@ -33,7 +33,7 @@ typedef NS_ENUM(NSUInteger, JCGDatePickerModel) {
 };
 
 
-@interface JCGDatePickerView : UIView
+@interface JCGDatePicker : UIView
 
 /**
  初始化方法

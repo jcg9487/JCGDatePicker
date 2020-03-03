@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "DateCellModel.h"
-#import "JCGDatePickerView.h"
+#import "JCGDatePicker.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -118,7 +118,7 @@
     __block DateCellModel *model = self.dataSource[indexPath.section][indexPath.row];
     
     __weak typeof(self) weakSelf = self;
-    JCGDatePickerView *datePicker = [[JCGDatePickerView alloc] initWithPickerModel:model.pickerModel MiniDate:nil MaxDate:[NSDate date] withResponse:^(NSDate *date) {
+    JCGDatePicker *datePicker = [[JCGDatePicker alloc] initWithPickerModel:model.pickerModel MiniDate:nil MaxDate:[NSDate date] withResponse:^(NSDate *date) {
         
         NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
         

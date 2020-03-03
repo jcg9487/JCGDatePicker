@@ -1,18 +1,18 @@
 //
-//  JCGDatePickerView.m
+//  JCGDatePicker.m
 //  JCGUIProject
 //
 //  Created by Edward on 2018/10/9.
 //  Copyright © 2018 Edward. All rights reserved.
 //
 
-#import "JCGDatePickerView.h"
+#import "JCGDatePicker.h"
 
 //闰年判断
 #define isleap(year) ((year) % 4 == 0 && ((year) % 100 != 0 || (year) % 400 == 0))
 #define kAnimationTime 0.25
 
-@interface JCGDatePickerView ()<UIPickerViewDataSource,UIPickerViewDelegate>{
+@interface JCGDatePicker ()<UIPickerViewDataSource,UIPickerViewDelegate>{
     
     UIView *contentView;
     UIPickerView *datePickerView;
@@ -59,7 +59,7 @@
 
 @end
 
-@implementation JCGDatePickerView
+@implementation JCGDatePicker
 
 #pragma mark - instancetype
 

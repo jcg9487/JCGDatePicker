@@ -13,7 +13,7 @@
 		2BD553B42175C67E00909668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD553B32175C67E00909668 /* Assets.xcassets */; };
 		2BD553B72175C67E00909668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD553B52175C67E00909668 /* LaunchScreen.storyboard */; };
 		2BD553BA2175C67E00909668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD553B92175C67E00909668 /* main.m */; };
-		2BD553C62175C6D500909668 /* JCGDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD553C42175C6D500909668 /* JCGDatePickerView.m */; };
+		2BD553C62175C6D500909668 /* JCGDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD553C42175C6D500909668 /* JCGDatePicker.m */; };
 		2BD553C92175C75900909668 /* DateCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD553C82175C75800909668 /* DateCellModel.m */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +28,8 @@
 		2BD553B62175C67E00909668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BD553B82175C67E00909668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BD553B92175C67E00909668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2BD553C32175C6D500909668 /* JCGDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCGDatePickerView.h; sourceTree = "<group>"; };
-		2BD553C42175C6D500909668 /* JCGDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCGDatePickerView.m; sourceTree = "<group>"; };
+		2BD553C32175C6D500909668 /* JCGDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCGDatePicker.h; sourceTree = "<group>"; };
+		2BD553C42175C6D500909668 /* JCGDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCGDatePicker.m; sourceTree = "<group>"; };
 		2BD553C72175C75800909668 /* DateCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCellModel.h; sourceTree = "<group>"; };
 		2BD553C82175C75800909668 /* DateCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,8 +83,8 @@
 		2BD553C22175C6D500909668 /* JCGDatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				2BD553C32175C6D500909668 /* JCGDatePickerView.h */,
-				2BD553C42175C6D500909668 /* JCGDatePickerView.m */,
+				2BD553C32175C6D500909668 /* JCGDatePicker.h */,
+				2BD553C42175C6D500909668 /* JCGDatePicker.m */,
 			);
 			path = JCGDatePicker;
 			sourceTree = "<group>";
@@ -160,7 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BD553AF2175C67D00909668 /* ViewController.m in Sources */,
-				2BD553C62175C6D500909668 /* JCGDatePickerView.m in Sources */,
+				2BD553C62175C6D500909668 /* JCGDatePicker.m in Sources */,
 				2BD553BA2175C67E00909668 /* main.m in Sources */,
 				2BD553AC2175C67D00909668 /* AppDelegate.m in Sources */,
 				2BD553C92175C75900909668 /* DateCellModel.m in Sources */,
