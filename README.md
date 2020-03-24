@@ -38,9 +38,10 @@ typedef NS_ENUM(NSUInteger, JCGDatePickerModel) {
  @param block 返回值
  @return instancetype
  */
-JCGDatePickerView *datePicker = [[JCGDatePickerView alloc] initWithPickerModel:model.pickerModel MiniDate:nil MaxDate:[NSDate date] withResponse:^(NSDate *date) {
-        
-    }];
+JCGDatePickerView *datePicker = [[JCGDatePickerView alloc] initWithPickerModel:pickerModel 
+                                                                      MiniDate:nil 
+                                                                       MaxDate:[NSDate date]
+                                                                  withResponse:^(NSDate *date) { }];
     
 [datePicker show];
 ```
