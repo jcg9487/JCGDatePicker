@@ -1,6 +1,9 @@
 # JCGDatePicker
 
-![](https://img.shields.io/badge/language-Objective--C-green) ![](https://img.shields.io/badge/support-iOS9%2B-red) ![](https://img.shields.io/badge/cocoapods-supported-green) ![](https://img.shields.io/cocoapods/l/JCGDatePicker) 
+![](https://img.shields.io/badge/language-Objective--C-green) 
+![](https://img.shields.io/badge/support-iOS9%2B-red) 
+![](https://img.shields.io/badge/cocoapods-supported-green) 
+![](https://img.shields.io/cocoapods/l/JCGDatePicker) 
 
 自定义日期选择控件
 
